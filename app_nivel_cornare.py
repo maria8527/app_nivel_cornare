@@ -20,8 +20,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # Coordenadas por defecto (Institución Universitaria Pascual Bravo)
 # Se usan solo si la API no trae la latitud/longitud de la estación.
 # ------------------------------------------------------------------
-LAT_DEFECTO = 6.2766
-LON_DEFECTO = -75.5901
+LAT_DEFECTO = 6.2942
+LON_DEFECTO = -75.06251
 
 API_BASE_URL = "https://marco.cornare.gov.co/api/v1/estaciones"
 
@@ -122,7 +122,7 @@ calidad = st.sidebar.selectbox("Calidad", [1, 0], index=0, help="1 = solo datos 
 consultar = st.sidebar.button("🔍 Consultar", type="primary")
 
 st.title("🌊 Nivel de ríos y quebradas — CORNARE")
-st.caption(f"Estudiante: **{nombre_estudiante}** · Estación: **{codigo_estacion}**")
+st.caption(f"Estudiante: **{Alejandra_Trujillo}** · Estación: **{49}**")
 
 # ------------------------------------------------------------------
 # Consulta y procesamiento
