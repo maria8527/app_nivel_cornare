@@ -121,7 +121,7 @@ def clasificar_estado(nivel_actual, nivel_alerta, nivel_alarma):
 # Sidebar — parámetros de la consulta y de la app
 # ------------------------------------------------------------------
 st.sidebar.header(f"Estación {CODIGO_ESTACION} — {NOMBRE_ESTACION}")
-nombre_estudiante = st.sidebar.text_input("Nombre del estudiante", "")
+nombre_estudiante = st.sidebar.text_input("Nombre del estudiante", "Maria Alejandra Trujillo Guerra")
 
 st.sidebar.subheader("Rango de fechas")
 fecha_desde = st.sidebar.date_input("Desde", pd.to_datetime("2026-08-23")).strftime("%Y-%m-%d")
